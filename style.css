@@ -613,9 +613,17 @@ input::placeholder {
         gap: 3rem;
     }
 
-    .footer-logo {
+    .footer-logo, .social {
         text-align: center;
         align-items: center;
+    }
+
+    .social i {
+        margin-right: 0;
+    }
+
+    .social{
+        gap: 1.3rem;
     }
 
     .email, .email-field, form, input {
