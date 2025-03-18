@@ -335,7 +335,7 @@ footer {
 }
 
 .footer-group {
-    width: 700px;
+    width: 750px;
     justify-content: space-between;
 }
 
@@ -347,7 +347,6 @@ footer {
 
 .footer-item {
     gap: 2rem;
-    width: 333px;
 }
 
 .footer-item h5 {
@@ -403,6 +402,10 @@ footer {
 
 input::placeholder {
     color: rgba(255, 255, 255, 1);
+}
+
+.footer-mobile {
+    display: none;
 }
 
 /* meddia query */
@@ -598,15 +601,30 @@ input::placeholder {
         font-size: 24px;
     }
 
-    footer, .footer-group {
-        flex-direction: column;
-        gap: 5rem;
-    }
-
     footer {
-        padding: 3rem 2rem;
+        display: none;
     }
 
+    .footer-mobile {
+        padding: 4rem 2rem;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .footer-logo {
+        text-align: center;
+        align-items: center;
+    }
+
+    .email, .email-field, form, input {
+        width: 100%;
+    }
+
+    .email-field {
+
+    }
 }
 
 
